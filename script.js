@@ -116,7 +116,7 @@ function endGame() {
     startButton.textContent = "Start Game";
     startButton.disabled = false;   
 
-    messageElement.textContent = `Game over! Diddy escaped Your score: ${score}`;
+    messageElement.textContent = `Game over! Diddy escaped :( Your score: ${score}`;
 }
 
 startButton.addEventListener("click", startGame);
