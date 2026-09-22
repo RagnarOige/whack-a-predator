@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Whack a Mole</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="game">
+        <h1>Whack-a-Fack</h1>
+
+        <div class="game-info">
+            <p>Score: <span id="score">0</span></p>
+            <p>Time: <span id="time">30</span></p>
+        </div>
+
+        <label for="difficulty">Difficulty:</label>
+
+        <select id="difficulty">
+            <option value="easy">Easy</option>
+            <option value="hard">Hard</option>
+            <option value="impossible">Impossible</option>
+        </select>
+
+        <p id="message"></p>
+
+        <div id="game-board" class="game-board">
+        </div>
+
+        <button id="start-button">Start Game</button>
+
+        
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
